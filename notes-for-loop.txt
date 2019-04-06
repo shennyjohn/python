@@ -1,0 +1,21 @@
+ loop statement allows us to execute a statement or group of statements multiple times.
+
+Python programming language provides following types of loops to handle looping requirements.
+
+While loop:
+Repeats a statement or group of statements while a given condition is TRUE. It tests the condition before executing the loop body.
+
+For loop:
+Executes a sequence of statements multiple times 
+
+Difference between 'for' loop and 'while' loop:-
+
+For Loops allow you to run through the loop when you know how many times you'd like it to run through the problem such as for (var i; i < 10; i++); this will continually increase i untill that condition returns false, any number can replace the 10 even a variable. but it will quit once the condition is no longer being met. This is best used again for loops that you know how when they should stop.
+
+While Loops allow you a little more flexability in what you put in it, and when it will stop such as while ( i < 10) you can also substitue in a boolean(true/false) for 10 as well as many other types of varibles.
+
+The key difference between the two is organization between them, if you were going to increase to 10 it'd be a lot cleaner and more readable to use a for statement, but on the other hand if you were to use an existing variable in your program in your loop parameters it'd be cleaner to just wright a while loop. In the For loop you MUST create a new variable, thats not true for the While loop.
+
+Difference: - while loop is condition dependent and does not necessarily need the content to be evaluated - for loop requires content to iterate over Similarity: - both can iterate over a list or structure, but you must define your content to iterate through beneath the while condition whereas for loops define the content index and type at start
+
+Their similarity is that both "while" and "for" are used for repeating a loop. Their difference is that we use "for" when we know how many times we need to re-run the loop. When we don't know how many times are needed we use "while".
